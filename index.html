@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div class="intro py-3 bg-success text-center">
+        <div class="container">
+          <h2 class="text-dark display-3 my-4">Quiz</h2>
+        </div>
+    </div>
+    
+    <div class="quiz py-4 bg-light bg-opacity-100">
+        <div class="container">
+            <h2 class="my-5 text-dark">Você consegue acertar a qual jogo de videogame estes personagens pertencem?</h2>
+
+            <form class="quiz-form text-dark">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. Joel e Ellie:</p>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion1" value="A" checked>
+                            The Last of Us
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion1" value="B">
+                            Resident Evil 4
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. Arthur Morgan e John Marston:</p>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion2" value="A" checked>
+                            Final Fantasy XV
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion2" value="B">
+                            Red Dead Redemption II
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. Franklin, Michael e Trevor:</p>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion3" value="A" checked>
+                            Uncharted 4
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion3" value="B">
+                            Grand Theft Auto V
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. Kratos e Atreus:</p>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion4" value="A" checked>
+                            God of War
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion4" value="B">
+                            The Elder Scrolls V: Skyrim
+                        </label>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <h3 class="final-score"></h3>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn bg-success text-light">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
